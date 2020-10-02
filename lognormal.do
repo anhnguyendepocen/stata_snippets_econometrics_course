@@ -1,8 +1,5 @@
 ******************
 * Nikhil Kumar
-* EC 508
-* Mid-term Exam
-* Question 1
 *****************
 /* for 500 iid observations on a lognormal-distributed random variable, create consistent estimates
 of the sigma and mu parameters of the lognormal population from where the sample was
