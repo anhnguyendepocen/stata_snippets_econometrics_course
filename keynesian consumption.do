@@ -1,8 +1,5 @@
 ****************************
 * Nikhil Kumar
-* EC 508
-* Problem Set 3
-* Question 5
 ****************************
 
 /* Obtain historical data on the two variables of interest (there are many sources for this
@@ -13,6 +10,7 @@ assumption to make), test whether MPC  is less than 1 (against the alternative
 that it is not) at 5% significance level. */
 
 clear all
+// change directory here
 cd "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\PS3"
 use q5_keynes_consumption.dta
 
