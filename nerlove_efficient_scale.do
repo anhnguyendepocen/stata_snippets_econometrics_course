@@ -1,8 +1,5 @@
 ****************
 * Nikhil Kumar
-* EC 508
-* Problem Set 4
-* Question 10
 ****************
 clear all
 
@@ -18,7 +15,9 @@ Construct a 95% confidence interval of the efficient scale. What percentage of f
 in the data lie in this interval?
  */
 
-use "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\Problem Sets\PS4\TableF4-4.dta"
+// change directory here
+cd "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\Problem Sets\PS4"
+use "TableF4-4.dta"
 
 * B
 // generate the transformed variables
