@@ -1,8 +1,6 @@
 ******************
 * Nikhil Kumar
-* EC 508
-* Mid-term Exam
-* Question 2
+* This code demonstrate an alternative the well-known Chow test for structural change
 *****************
 clear all
 
