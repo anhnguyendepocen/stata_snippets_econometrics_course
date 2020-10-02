@@ -1,8 +1,6 @@
 *************************
 * Nikhil Kumar
-* EC 508
-* Problem Set 3
-* Question 11
+* This code sample manually replicates a regression table using matrix algebra
 *************************
 
 /* Create a mock dataset containing three variables y; x2; x3 with 100 observations (it does
