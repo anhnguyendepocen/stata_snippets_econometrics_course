@@ -1,8 +1,5 @@
 ****************
 * Nikhil Kumar
-* EC 508
-* Problem Set 4
-* Question 8
 ****************
 clear all
 
