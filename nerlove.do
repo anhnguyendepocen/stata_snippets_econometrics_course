@@ -1,13 +1,12 @@
 ***********************
 * Nikhil Kumar
-* EC 508
-* Problem Set 4
-* Question 1
+* This code replicates parts of empirical analysis of Nerlove (1963)
 ***********************
 clear all
 
-* replicating empirical analysis of Nerlove (1963)
-use "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\Problem Sets\PS4\Nerlove_data.dta"
+// change directory here
+cd "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\Problem Sets\PS4"
+use Nerlove_data.dta
 
 * a
 gen lc  = log( COSTS) //C
