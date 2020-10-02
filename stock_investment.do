@@ -1,16 +1,14 @@
 ***************************
 * Nikhil Kumar
-* EC 508
-* Problem Set 2
-* Q8
+* uses monthly stock price data for last 12 months on stocks of facebook, tesla and google
+* minimum variance protfolio distribution on an investment of 10000
 *******************
 
 clear all
+
+* change directory here
 cd "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\PS2"
 use "prices_stock_q8.dta"
-
-* uses monthly stock price data for last 12 months on stocks of facebook, tesla and google
-* minimum variance protfolio distribution on an investment of 10000
 
 * set a time variable
 gen obnum=_n
