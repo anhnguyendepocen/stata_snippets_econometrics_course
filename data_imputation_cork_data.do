@@ -1,10 +1,10 @@
 ***************************
 * Nikhil Kumar
-* EC 508
-* Problem Set 2
-* Q6
+* This code shows imputation of missing data using available data
 *******************
 clear all
+
+* change directory here
 cd "C:\Users\nikhi\Documents\BU_Sem_2\EC 508\Problem Sets\PS2"
 use "cork.dta"
 
