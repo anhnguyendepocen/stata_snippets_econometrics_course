@@ -1,8 +1,5 @@
 ****************
 * Nikhil Kumar
-* EC 508
-* Problem Set 3
-* Question 10
 ****************
 
 /* Write a program that given a user-chosen square, symmetric, positive definite matrix
