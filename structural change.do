@@ -1,19 +1,17 @@
 ***********************
 * Nikhil Kumar
-* EC 508
-* Problem Set 4
-* Question 2
 ***********************
 
 * (Solow's 1957 study)
-
-clear all
-
-use "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\Problem Sets\PS4\TableF6-4.dta"
-
 /* Solow claimed that a 'structural break' took place on 1943, making the 1943-49
 observations fundamentally diifferent from previous years. Examine the residuals as
 well as perform formal tests on each of the four models to verify this claim. */
+
+clear all
+
+* change directory here
+cd "C:\Users\nikhi\Desktop\BU_Sem_2\EC 508\Problem Sets\PS4"
+use TableF6-4.dta
 
 // Generate transformed variables
 gen q_a = q/a
