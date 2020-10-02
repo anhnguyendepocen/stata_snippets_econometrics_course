@@ -1,14 +1,12 @@
 ****************
 * Nikhil Kumar
-* EC 508
-* Problem Set 4
-* Question 5
+/* This is a program that lets you choose a random element from
+{1; 2; : : : ; n} where n is a positive integer. The program will take n as an input
+argument and will store the output as a scalar in another argument. */
 ****************
 clear all 
 
-/* write a program that lets you choose a random element from
-{1; 2; : : : ; n} where n is a positive integer. The program will take n as an input
-argument and will store the output as a scalar in another argument. */
+
 
 capture program drop rand_el
 program define rand_el
@@ -21,7 +19,7 @@ args n s
 	scalar `s' = round(`x')
 end
 
-/* write a program that will select m integer entities out of n integer ones. It will
+/* This program will select m integer entities out of n integer ones. It will
 use n and m as arguments and will have as an output a variable with m observations
 each one between 1 and n and without repetition, ensuring that each of the n integers
 is equiprobably chosen. For example, if my program is called `chooseasample', upon
