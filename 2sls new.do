@@ -1,12 +1,11 @@
 ******************
 * Nikhil Kumar
-* EC 508
-* Mid-term Exam
-* Question 4
+* This code uses two different methods to evaluate Two Stage Least Squares (2SLS) and compares the estimates
 *****************
 
 clear all
 
+// change directory here
 cd "C:\Users\nikhi\Documents\BU_Sem_2\EC 508\Mid Term 2"
 
 use mroz.dta
